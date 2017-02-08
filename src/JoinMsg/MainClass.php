@@ -30,7 +30,7 @@ class MainClass extends PluginBase implements Listener{
 		"opJoinmsg2"=>"加入游戏"
 		));
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("JoinMsg加载中！作者:SimaFeng，世界云内部资源，请勿盗用QQ810529702");
+		$this->getLogger()->info("JoinMsg加载中！作者:SimaFeng，QQ810529702");
 	}
     public function onQuit(PlayerQuitEvent $event){
         $player = $event->getPlayer();
